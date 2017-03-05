@@ -5,3 +5,9 @@ machine:
 dependencies:
   override:
     - mvn clean install
+
+deployment:
+  staging:
+    branch: master
+      heroku:
+        appname: sample-application-sowa
