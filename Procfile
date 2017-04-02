@@ -1,2 +1,2 @@
-web: cd eureka-server & mvn spring-boot:run
-queue: cd apps/user-core && mvn spring-boot:run
+web: java -jar eureka-server/target/*.jar
+queue: java -jar apps/users-core/target/*.war
